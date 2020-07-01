@@ -1,0 +1,98 @@
+/*font imported*/
+@import url('https://fonts.googleapis.com/css?family=Nunito:100,300,400,600,700');
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+body {
+  font-family: Nunito, arial, sans-serif;
+}
+
+.section {
+  width: 100%;
+  background: #fff;
+  padding: 150px 0;
+}
+
+.promote {
+  border: 2px dashed #ddd;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+
+/* Card styling */
+h5.card-title {
+  font-size: 1.5rem !important;
+  font-weight: 500 !important;
+}
+p.card-text {
+  font-size: 1rem !important;
+  font-weight: 500 !important;
+}
+
+.profile-card {
+  box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.75);
+}
+
+.profile-card .card-img-block{
+    float:left;
+    width:100%;
+    height:150px;
+    overflow:hidden;
+}
+.profile-card .card-body{
+    position:relative;
+}
+.profile-card .profile {
+  border-radius: 50%;
+  position: absolute;
+  top: -45px;
+  left: 15%;
+  max-width: 100px;
+  border: 3px solid rgba(255, 255, 255, 1);
+  transition: transform .2s
+}
+.profile-card .profile:hover {
+  transform: scale(1.2);
+}
+.profile-card h5{
+    font-weight:600;
+    color:#007bff;
+}
+.profile-card .card-text{
+    font-weight:300;
+    font-size:15px;
+}
+.profile-card .icon-block{
+    text-align: center;
+    width:100%;
+    margin-bottom: 15px;
+}
+.profile-card .icon-block a{
+    text-decoration:none;
+}
+.profile-card i {
+  display: inline-block;
+    font-size: 16px;
+    color: #007bff;
+    text-align: center;
+    border: 1px solid #007bff;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    margin:0 5px;
+}
+.profile-card i:hover {
+  background-color:#007bff;
+  color:#fff;
+}
+
+.profile-card .footer {
+  position: relative;
+}
+
+.profile-card .progress {
+  margin: 10px;
+}
